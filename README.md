@@ -1,2 +1,5 @@
 # Rot13 Decoder
-Small Rot13 script used to decode Rot13 messages.
+## Description
+* Small Rot13 script used to decode Rot13 messages.
+## How-To
+* Simply input the encoded message when prompted to and the output will decode the message.
