@@ -21,8 +21,6 @@ class Rot13:
                     answer += self.upper_ascii[(self.upper_ascii.index(char) + 13) % 26]
                 elif char in self.lower_ascii:
                     answer += self.lower_ascii[(self.lower_ascii.index(char) + 13) % 26]
-                if char in self.digits:
-                    answer += self.digits[(self.digits.index(char) + 13) % 10]
                 if char == " ":
                     answer += char
         except IndexError:
